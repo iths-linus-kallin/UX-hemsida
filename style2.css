@@ -1,0 +1,169 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+ul{
+    background-color: rgb(6, 51, 21);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a, li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 225, 170);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.merch{
+    color: rgb(255, 85, 85);
+    margin-right: 10px;
+}
+
+.space{
+    width: 20px;
+}
+
+ul img{
+    height: 20px;
+}
+
+.menyr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.logo{
+    font-family: 'Rock salt', cursive;
+    font-size: 1.3rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.blur:hover {
+    filter: blur(0.4px);
+}
+
+.blackline{
+    height: 1px;
+    background-color:rgb(158, 133, 87);
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 45px;
+}
+
+.left{
+    width: 50vw;
+}
+
+.middle{
+    width: 30vw;
+    padding: 25px;
+}
+
+.right{
+    width: 20vw;
+}
+
+.right p{
+    text-align: left;
+}
+
+.vinyls{
+    display: flex;
+    flex-direction: row;
+}
+
+.vinyl{
+    margin-right: 25px;
+}
+
+.cds{
+    display: flex;
+    flex-direction: row;
+}
+
+.cd{
+    margin-right: 25px;
+}
+
+.tshirts{
+    display: flex;
+    flex-direction: row;
+}
+
+.tshirt{
+    margin-right: 25px;
+}
+
+.tshirtbig{
+    width: 25vw;
+}
+
+.thumbs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 25px;
+}
+
+.tshirtsmall{
+    width: 6vw;
+}
+
+.buy{
+    background-color: yellow;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(65, 65, 65);
+}
+
+footer{
+    background-color: rgb(6, 51, 21);
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 100;
+    line-height: 1.4;
+    color: rgb(255, 225, 170);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
