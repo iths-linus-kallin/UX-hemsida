@@ -80,14 +80,14 @@ ul img{
 .maillist{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
-    color: rgb(255, 255, 255);
+    color: rgb(204, 204, 204);
     position: absolute;
     top: 10vw;
     left: 6vw;
     width: 180px;
     padding: 20px;
     padding-top: 0px;
-    background-color: rgba(58, 58, 58, 0.9);
+    background-color: rgba(78, 78, 78, 0.8);
     border-radius: 2px;
     border: solid rgb(63, 63, 63) 1px
 }
