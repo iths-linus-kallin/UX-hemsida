@@ -93,7 +93,13 @@ h3{
 }
 
 input{
-    width: 160px;
+    width: 100px;
+}
+
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 0.8rem;
 }
 
 footer{
