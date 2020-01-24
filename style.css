@@ -23,6 +23,11 @@ a, li{
     text-decoration: none;
 }
 
+nav{
+    width: 100%;
+    position: fixed; 
+}
+
 .merch{
     color: rgb(255, 85, 85);
     margin-right: 10px;
@@ -63,13 +68,12 @@ ul img{
 
 .hero{
     width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: url("https://www.dropbox.com/s/5cpuiuixst9o0v7/band.jpg?raw=1");
-    background-size: 100%;
+    background-image: url("https://www.dropbox.com/s/o153pza8btmqm83/band4.jpg?raw=1");
+    background-size: cover;
     background-repeat: no-repeat;
-    display: block;
-    overflow: scroll;
 }
 
 .maillist{
