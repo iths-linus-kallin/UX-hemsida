@@ -80,6 +80,7 @@ nav{
     display: flex;
     flex-direction: row;
     padding: 45px;
+    padding-top: 8vh;
 }
 
 .left{
@@ -87,8 +88,13 @@ nav{
 }
 
 .middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30vw;
-    padding: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 16px;
 }
 
 .right{
@@ -102,32 +108,54 @@ nav{
 .vinyls{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15vw;
 }
 
 .vinyl{
     margin-right: 25px;
 }
 
+.vinyl img{
+    height: 80px;
+    width: 80px;
+}
+
 .cds{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15vw;
 }
 
 .cd{
     margin-right: 25px;
 }
 
+.cd img{
+    height: 80px;
+    width: 80px;
+}
+
 .tshirts{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15vw;
 }
 
 .tshirt{
     margin-right: 25px;
 }
 
+.tshirt img{
+    height: 80px;
+    width: 80px;
+}
+
 .tshirtbig{
-    width: 25vw;
+    width: 20vw;
+    margin-bottom: 10vh;
 }
 
 .thumbs{
@@ -146,6 +174,7 @@ nav{
     padding: 3px;
     border-radius: 5px;
     border: 1px solid rgb(65, 65, 65);
+    width: 80%;
 }
 
 footer{
@@ -196,6 +225,11 @@ h2{
     color: rgb(255, 225, 170);
 }
 
+span{
+    font-weight: 500;
+}
+
+
  /* The Modal (background) */
  .modal {
     display: none; /* Hidden by default */
@@ -212,17 +246,42 @@ h2{
   
   /* Modal Content/Box */
   .modal-content {
+    display: flex;
+    justify-content: space-between;
     background-color: #fefefe;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
+    padding: 40px;
     border: 1px solid #888;
-    width: 30%; /* Could be more or less, depending on screen size */
+    width: 30%; Could be more or less, depending on screen size
   }
   
+  .modal-content p{
+      text-align: right;
+  }
+
+  .modal-content img{
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+  }
+
+  .basket{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .basket .buy{
+      width: 100%;
+  }
+
+  .basket .buy p{
+      text-align: center;
+  }
+
   /* The Close Button */
-  .close {
+  .modal-content .close {
     color: #aaa;
-    float: right;
+    text-align: start;
     font-size: 28px;
     font-weight: bold;
   }
