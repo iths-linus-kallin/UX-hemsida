@@ -76,22 +76,24 @@
                     <p>Röd T-shirt</p>
                 </div>
                 <div class="tshirt">
-                    <img src="https://www.dropbox.com/s/g923bovbis6zs4x/blue.jpg?raw=1" alt="">
+                    <img src="https://www.dropbox.com/s/bu872yncl0xnfl5/blue.png?raw=1" alt="">
                     <p>Blå T-shirt</p>
                 </div>
             </div>
         </section>
-        <section class="middle">
-            <img class="tshirtbig" src="https://www.dropbox.com/s/jzlwsw0czw3sron/tshirtbig.png?raw=1" alt="">
-            <div class="buy">
-                <p>LÄGG TILL I KUNDVAGN</p>
-            </div>
-        </section>
-        <section class="right">
-            <p>"Vår unika t-shirt i finaste georgisk bomull som smekts av fem kameler samtidigt som två spädbarn gråtit över djuren. Tillsammans bildar detta den mjukaste bomull du någonsin känt. Den är en fröjd att bära och en fröjd att visa upp för dina vänner. Låt dom bara inte röra vid den för då måste dom ha en själv sen!"</p>
-        </section>
+        <div class="border">
+            <section class="middle">
+                <h1>VIT T-SHIRT</h1>
+                <img class="tshirtbig" src="https://www.dropbox.com/s/jzlwsw0czw3sron/tshirtbig.png?raw=1" alt="">
+                <div class="buy">
+                    <p>LÄGG TILL I KUNDVAGN</p>
+                </div>
+            </section>
+            <section class="right">
+                <p>"Vår unika t-shirt i finaste georgisk bomull som smekts av fem kameler samtidigt som två spädbarn gråtit över djuren. Tillsammans bildar detta den mjukaste bomull du någonsin känt. Den är en fröjd att bära och en fröjd att visa upp för dina vänner. Låt dom bara inte röra vid den för då måste dom ha en själv sen!"</p>
+            </section>
+        </div>
     </section>
-    <div class="blackline"></div>
     <footer>
         <div class="blackline-footer"></div>
         <div class="footer-p">
@@ -104,6 +106,11 @@
                 <a href="mailto:info@kantmanagement.se">info@kantmanagement.se</a> <br>
                 0735 - 04 95 23
             </p>
+        </div>
+        <div class="footer-right">
+            <p class="popup">En ny vara i kundvagnen >>></p>
+            <div class="cart">
+            </div>
         </div>
     </footer>
 
@@ -120,11 +127,47 @@
             Frakt - <span>50 kr</span><br></p>
             <div class="blackline"></div>
             <p>Totalt - <span>250 kr</span></p>
-            <div class="buy"><p>BETALA</p></div>
+            <div class="pay"><p>BETALA</p></div>
         </div>
     </div>
-  
-  </div>
+</div>
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+
+    <!-- Modal content -->
+    <div class="modal-content2">
+        <span class="close2">&times;</span>
+        <div class="basket">
+            <h1>Betalning</h1>
+            <div class="one">
+            <p>Namn:</p><input type="text"> 
+            </div>
+            <div class="two">
+            <p>E-mail:</p><input type="text">
+            </div>
+            <div class="three">
+            <p>Kortnummer:</p><input type="text">
+            </div>
+            <div class="four">
+            <p>CVC-kod:</p><input type="password">
+            </div>
+            <p>Totalt - <span>250 kr</span></p>
+            <div class="finish"><p>SKICKA BESTÄLLNING</p></div>
+        </div>
+    </div>
+</div>
+
+<div id="myModal3" class="modal3">
+
+    <!-- Modal content -->
+    <div class="modal-content3">
+        <span class="close3">&times;</span>
+        <div class="basket">
+            <h1>Beställningen skickad!</h1>
+            <p>Tack för att du stödjer oss!</p>
+        </div>
+    </div>
+</div>
     <script src="merch.js"></script>
 </body>
 </html>
