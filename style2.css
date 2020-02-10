@@ -384,7 +384,7 @@ span{
     cursor: pointer;
   } 
 
-  .one, .two, .three, .four{
+  .one, .two, .three, .four, .five{
     display: flex;
     align-items: center;
     height: 30px;
